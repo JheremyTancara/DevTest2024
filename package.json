@@ -1,0 +1,13 @@
+{
+  "name": "project-root",
+  "version": "1.0.0",
+  "scripts": {
+    "start-frontend": "npm --prefix Frontend run dev",
+    "start-backend": "cd Backend && dotnet run --project Project.Api/Project.Api.csproj",
+    "start-all": "concurrently \"npm run start-frontend\" \"npm run start-backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
+

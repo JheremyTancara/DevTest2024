@@ -1,0 +1,61 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+*.sln.ide
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# Packages
+*.nupkg
+*.snupkg
+*.symbols.nupkg
+**/packages/*
+!**/packages/build/*
+!**/packages/build/**/*.nuspec
+!**/packages/build/**/lib/netstandard2.0/*.dll
+
+# Project Files
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.sln.ide
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+
+# Azure Web App publish settings
+*.PublishSettings
+# Local .NET Core files
+project.lock.json
+project.fragment.lock.json
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Entity Framework
+Migrations/
+
+# Logs
+logs/
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# Environment Variables
+.env
+
+# Node modules (ignorar la carpeta node_modules)
+node_modules/
