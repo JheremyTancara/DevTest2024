@@ -1,0 +1,13 @@
+{
+  "name": "project-backend",
+  "version": "1.0.0",
+  "description": "Backend for the project",
+  "scripts": {
+    "migrate": "dotnet ef migrations add InitialCreate --project Project.DataAccess/Project.DataAccess.csproj --startup-project Project.Api/Project.Api.csproj",
+    "update-db": "dotnet ef database update --project Project.DataAccess/Project.DataAccess.csproj --startup-project Project.Api/Project.Api.csproj",
+    "start": "dotnet run --project Project.Api/Project.Api.csproj"
+  },
+  "author": "JheremyTZ",
+  "license": "MIT"
+}
+
