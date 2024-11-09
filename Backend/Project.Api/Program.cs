@@ -14,7 +14,7 @@ using Project.Core.Mapping.Interface;
 using Project.Core.Utils.ErrorMsg.Base;
 using Project.Core.Utils.ErrorMsg.Interface;
 using Project.DataAccess.Interface;
-using Project.DataAccess.Repositories.InMemory;
+using Project.DataAccess.Repositories.DataPersistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
